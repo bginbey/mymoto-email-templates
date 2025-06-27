@@ -41,6 +41,7 @@
             .app-devices { padding-top: 0 !important; }
             .app-devices div { width: 100% !important; }
             .app-devices img { width: 600px !important; margin-left: -100px !important; }
+            .banner-image { width: 100% !important; max-width: 100% !important; }
         }
     </style>
 </head>
@@ -145,20 +146,21 @@
                                         </td>
                                     </tr>
                                     
-                                    <!-- Banner Bottom - Light Blue Background with App Images -->
+                                    <!-- Banner Bottom - Composite Image -->
                                     <tr>
-                                        <td align="center" style="background-color: #e9f2f6; border-radius: 0 0 32px 32px; padding: 0; position: relative; overflow: hidden;">
-                                            <!-- App Images Section with Green Background Extension -->
-                                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                                <tr>
-                                                    <td align="center" style="background-color: #008077; padding-top: 0;" class="app-devices">
-                                                        <!-- App Device Image Container with Cropping -->
-                                                        <div style="width: 536px; max-width: 100%; overflow: hidden; margin: 0 auto;">
-                                                            <img src="../../assets/images/app-on-device-full@2x.png" alt="MyMoto Rewards App" style="display: block; border: 0; outline: none; text-decoration: none; width: 900px; max-width: none; height: auto; margin-left: -182px;">
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                            </table>
+                                        <td align="center" style="background-color: #e9f2f6; border-radius: 0 0 32px 32px; line-height: 0; font-size: 0;">
+                                            <!--[if gte mso 9]>
+                                            <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:536px;">
+                                                <v:fill type="solid" color="#e9f2f6" />
+                                                <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+                                            <![endif]-->
+                                            <div>
+                                                <img src="../../assets/images/device-stack-banner@2x.png" alt="MyMoto Rewards App" width="536" class="banner-image" style="display: block; border: 0; outline: none; text-decoration: none; width: 100%; max-width: 536px; height: auto; border-radius: 0 0 32px 32px;">
+                                            </div>
+                                            <!--[if gte mso 9]>
+                                                </v:textbox>
+                                            </v:rect>
+                                            <![endif]-->
                                         </td>
                                     </tr>
                                 </table>
@@ -178,7 +180,17 @@
                                     <!-- Logo & Tagline -->
                                     <tr>
                                         <td align="center" style="padding-bottom: 24px;">
-                                            <img src="../../assets/images/mymoto-rewards-on-light@2x.png" alt="MyMoto Rewards" width="254" height="42" style="display: block; border: 0; outline: none; text-decoration: none;">
+                                            <!--[if mso]>
+                                            <table width="254" cellpadding="0" cellspacing="0" border="0" align="center">
+                                                <tr>
+                                                    <td>
+                                            <![endif]-->
+                                            <img src="../../assets/images/mymoto-rewards-on-light@2x.png" alt="MyMoto Rewards" width="254" height="42" style="display: block; border: 0; outline: none; text-decoration: none; width: 254px !important; max-width: 254px !important;">
+                                            <!--[if mso]>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <![endif]-->
                                         </td>
                                     </tr>
                                     <tr>
